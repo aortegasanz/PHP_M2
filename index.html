@@ -11,79 +11,58 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Hoja de Estilos - CSS -->
         <link rel="stylesheet" href="styles/css/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">        
     </head>
     <body>
         <!-- Contenedor Global Web -->        
-        <div id="web">
+        <div class="web">
             <!-- CABECERA DE PÁGINA -->
             <header>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td id="logo">
-                                <img src="images/logo.jpg"/>
-                            </td>
-                            <td id="middle">.</td>
-                            <td id="rrss">
-                                <img src="images/rrss1.png" alt="."/>
-                                <img src="images/rrss2.png" alt="."/>
-                                <img src="images/rrss3.png" alt="."/>
-                            </td>                        
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="container">
+                    <div class="logo">
+                        <img src="images/logo.jpg"/>
+                    </div>
+                    <div class="rrss">
+                        <img src="images/facebook.png"/>
+                        <img src="images/twitter.png"/>
+                        <img src="images/instagram.png"/>
+                    </div>
+                </div>
             </header>
-            <!-- SEPARADORES -->
-            <div class="sepah"></div>
             <!-- BARRA DE NAVEGACIÓN  -->
             <nav>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="navitem"></td>
-                            <td class="sepav"></td>
-                            <td class="navitem"></td>
-                            <td class="sepav"></td>
-                            <td class="navitem"></td>                        
-                            <td class="sepav"></td>
-                            <td class="navitem"></td>                        
-                            <td class="sepav"></td>
-                            <td class="navitem"></td>                        
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="container">
+                    <div class="navitem"><a href="#">Empresa</a></div>
+                    <div class="navitem"><a href="#">Servicios</a></div>
+                    <div class="navitem"><a href="#">Proyectos</a></div>
+                    <div class="navitem"><a href="#">Localizaci&oacute;n</a></div>
+                    <div class="navitem"><a href="#">Contacto</a></div>
+                </div>
             </nav>
-            <div class="sepah"></div>
             <!-- SECCION CONTENIDO IMPORTANTE  -->
             <aside>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="asideitem">.</td>
-                            <td class="sepav10"></td>
-                            <td class="asideitem">.</td>
-                            <td class="sepav10"></td>
-                            <td class="asideitem">.</td>                        
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="container">
+                    <div class="asideitem"><h1>Mantenimiento</h1></div>
+                    <div class="asideitem"><h1>Software</h1></div>
+                    <div class="asideitem"><h1>Nuestro Equipo</h1></div>
+                </div>
             </aside>
-            <div class="sepah"></div>
             <!-- CONTENIDO DE LA PÁGINA -->
             <article>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="slateral">.</td>
-                            <td class="scenter">.</td>
-                            <td class="slateral">.</td>                        
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="container">
+                    <div class="slateral"></div>
+                    <div class="scenter"></div>
+                    <div class="slateral"></div>
+                </div>
             </article>
-            <div class="sepah"></div>
             <!--  PIE DE PÁGINA -->
             <footer>
+                <div class="container">
+                    <div class="footeritem">
+                        &#169; Orbora Systems S.L.U. Todos los derechos Reservados | orborasystems@gmail.com | 623.184.720 | www.orborasystems.com
+                    </div>
+                </div>
             </footer>
         </div>            
     </body>
