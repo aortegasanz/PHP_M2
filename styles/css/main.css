@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-ene-2021, 17:42:12
+    Author     : aortega
+*/
+
+#web {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;     
+}
+
+header {
+    background-color: #4b4b4d;
+    height: 120px;
+    text-align: center;
+}
+
+#logo{
+    width: 33%;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: left;
+    
+}
+#middle {
+    width: 33%;
+}
+#rrss{
+    width: 33%;
+    padding-top: 30px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.navitem {
+    width: 119px;
+    height: 50px;
+    background-color: #97989a;
+}
+
+.asideitem {
+    width: 199px;
+    height: 190px;
+    background-color: #858688;   
+}
+
+.sepav {
+    width: 1px;
+}
+.sepav10 {
+    width: 10px;
+}
+.sepah {
+    height: 25px;
+}
+
+.slateral {
+    background-color: #858688;
+    height: 450px;
+    width: 200px;
+}
+
+.scenter {
+    background-color: #4b4b4d;
+    height: 450px;
+    width: 600px;
+}
+
+footer {
+    background-color: #4b4b4d;
+    height: 70px;
+}
