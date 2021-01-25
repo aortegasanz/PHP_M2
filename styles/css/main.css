@@ -27,7 +27,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -52,6 +52,16 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+a:link, a:visited { 
+    text-decoration: none;
+    color: white;
+}
+
+a:active, a:hover {
+    text-decoration: none;
+    color: #ca000c;
 }
 
 header {
@@ -87,13 +97,14 @@ header, nav, aside, article, footer {
 
 .container {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
 }
 
 .navitem {
     background-color: #97989a;
     flex-grow: 1;
     height: 50px;
+    line-height: 50px;
 }
 
 .navitem + .navitem {
@@ -101,9 +112,15 @@ header, nav, aside, article, footer {
 }
 
 .asideitem {
+    /*color: #ca000c;*/
+    color: white;
     background-color: #858688;
+    background-position: center;
+    background-repeat: no-repeat;
     flex-grow: 1;
-    height: 190px;
+    height: 170px;
+    width: 300px;
+    padding-top: 10px;
 }
 
 .asideitem + .asideitem {
@@ -127,4 +144,5 @@ header, nav, aside, article, footer {
     color: white;
     flex-grow: 1;
     height: 70px;
+    line-height: 70px;
 }
