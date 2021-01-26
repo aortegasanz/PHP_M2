@@ -36,7 +36,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-        background-color: #e6e7e9;
+    background-color: #e6e7e9;
 }
 ol, ul {
 	list-style: none;
@@ -112,11 +112,10 @@ header, nav, aside, article, footer {
 }
 
 .asideitem {
-    /*color: #ca000c;*/
-    color: white;
     background-color: #858688;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     flex-grow: 1;
     height: 170px;
     width: 300px;

@@ -39,29 +39,29 @@ and open the template in the editor.
             <!-- SECCION CONTENIDO IMPORTANTE  -->
             <aside>
                 <div class="container">
-                <div class="asideitem" style="background-image:url('images/software.jpg');">
-                            <h6>Mantenimiento</h6>
-                            <br/><br/><br/><br/>
-                            <button type="button" class="btn btn-danger btn-sm">Acceder</button>
-                        </div>
-                        <div class="asideitem" style="background-image:url('images/software.jpg');">
-                            <h6>Software</h6>
-                            <br/><br/><br/><br/>
-                            <button type="button" class="btn btn-danger btn-sm">Acceder</button>
-                        </div>
-                        <div class="asideitem" style="background-image:url('images/software.jpg');">
-                            <h6>Nuestro Equipo</h6>
-                            <br/><br/><br/><br/>
-                            <button type="button" class="btn btn-danger btn-sm">Acceder</button>
-                        </div>
+                    <div class="asideitem" style="background-image:url('images/mantenimiento.jpg');">
+                        <button type="button" class="btn btn-secondary">Mantenimiento</button>
+                        <br/><br/><br/><br/>
+                        <button type="button" class="btn btn-danger btn-sm">Acceder</button>
                     </div>
+                    <div class="asideitem" style="background-image:url('images/software.jpg');">
+                        <button type="button" class="btn btn-secondary">Software</button>
+                        <br/><br/><br/><br/>
+                        <button type="button" class="btn btn-danger btn-sm">Acceder</button>
+                    </div>
+                    <div class="asideitem" style="background-image:url('images/equipo.jpg');">
+                        <button type="button" class="btn btn-secondary">Nuestro Equipo</button>
+                        <br/><br/><br/><br/>
+                        <button type="button" class="btn btn-danger btn-sm">Acceder</button>
+                    </div>
+                </div>
             </aside>
             <!-- CONTENIDO DE LA P&Aacute;GINA -->
             <article>
                 <div class="container">
                     <div class="slateral"></div>
                     <div class="scenter">
-                        <img src="images/galleta-orbora-450.jpg"/>
+                        <img src="images/galleta-orbora.png"/>
                     </div>
                     <div class="slateral"></div>
                 </div>
